@@ -16,8 +16,8 @@ namespace GameClock
     private const string ConfigFilePath = "config.json";
     private string _textColor = "#80FFFFFF";
     private int _borderSize = 0;
-    private string _backgroundColor = "#00000000";
-    private string _format = "HH:mm";
+    private string _backgroundColor = "#05000000";
+    private string _format = "t";
     private int _period = 1000;
     private double _windowLeft = 0f;
     private double _windowTop = 0f;
