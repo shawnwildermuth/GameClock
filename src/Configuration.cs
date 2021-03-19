@@ -13,7 +13,7 @@ namespace GameClock
 {
   public class Configuration : ViewModelBase
   {
-    private const string ConfigFilePath = "config.json";
+    private const string ConfigFilePath = "GameClock.config.json";
     private string _textColor = "#80FFFFFF";
     private int _borderSize = 0;
     private string _backgroundColor = "#05000000";
