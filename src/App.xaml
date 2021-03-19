@@ -1,0 +1,22 @@
+﻿<Application x:Class="GameClock.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:GameClock"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+      <local:ColorConverter x:Key="colorConverter"></local:ColorConverter>
+      <local:FontWeightConverter x:Key="weightConverter"></local:FontWeightConverter>
+      <SolidColorBrush x:Key="ForegroundBrush" Color="#FFE2E2E2"/>
+      <SolidColorBrush x:Key="BackgroundBrush" Color="#FF323232"/>
+    <Style x:Key="SimpleButton" TargetType="Button">
+      <Setter Property="BorderBrush"
+              Value="White" />
+      <Setter Property="Background"
+              Value="#FF3C3C3C" />
+      <Setter Property="BorderBrush"
+              Value="{DynamicResource ForegroundBrush}" />
+      <Setter Property="Foreground"
+              Value="{DynamicResource ForegroundBrush}" />
+    </Style>
+  </Application.Resources>
+</Application>
